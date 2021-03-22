@@ -1,0 +1,15 @@
+allprojects {
+    apply plugin: 'base'
+
+    group = 'io.iamcyw.tower'
+    version = '1.0.0-SNAPSHOT'
+
+    repositories {
+        mavenLocal()
+        maven {
+            url "https://repo.huaweicloud.com/repository/maven/"
+        }
+        mavenCentral()
+
+    }
+}

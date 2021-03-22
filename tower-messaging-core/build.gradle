@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+apply plugin: 'io.iamcyw.tower.Convention'
+
+description("tower message core")
+
+dependencies {
+    implementation("io.iamcyw.tower:tower-utils")
+    implementation("io.iamcyw.tower:tower-i18n")
+    implementation("io.iamcyw.tower:tower-exception")
+    implementation("io.projectreactor:reactor-core")
+}

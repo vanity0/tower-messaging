@@ -1,0 +1,3 @@
+rootProject.name = 'tower-messaging'
+include 'tower-messaging-core'
+
